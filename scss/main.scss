@@ -59,7 +59,6 @@ p {
 
 .inicioColor {
     background-color:$azul;
-    padding: 1rem 0 0.8rem 0;
 
     .textoPrimero h1 {
         color:$blanco;
@@ -476,12 +475,8 @@ section#contact {
 }
 
 .carrusel {
-    margin: 0;
     padding: 0.8rem 0 0.8rem 0;
     background-color: #F2F2F2;
-}
-
-.carrusel img {
 }
 
 .estilosFinal {
@@ -622,7 +617,9 @@ section#contact {
     }
 }
 
-
+.text-center {
+    padding: 0;
+}
 
 
 
@@ -630,25 +627,123 @@ section#contact {
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px){
-
+    .Titulos h1 {
+        padding: 0;
+        font-size: 2rem;
+    }
+    .Titulos h2 {
+        padding: 0;
+        font-size: 2rem;
+    }
+    .Titulos h3 {
+        padding: 0.5rem 0 0 0;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .Titulos p {
+        padding: 0;
+        text-align: center;
+    }
+    .textoCentral h4 {
+        text-align: center;
+    }
+    .inicioColor {
+    
+        .textoPrimero h1 {
+            padding: 0;
+        }
+        
+        .textoSegundo h2 {
+            padding: 0;
+        }
+    }
+    .carrusel img {
+        height: 15%;
+        margin: 1rem 0 1rem 0;
+    }
 }
-
+section#contact .section-heading{
+    font-size: 2.5rem;
+}
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px){
+    .Titulos h1 {
+        padding: 0;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .Titulos h2 {
+        padding: 0;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .Titulos h3 {
+        padding: 0.5rem 0 0 0;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .Titulos p {
+        padding: 0;
+        text-align: center;
+    }
+    .textoCentral h4 {
+        text-align: center;
+    }
+    .inicioColor {
     
+        .textoPrimero h1 {
+            padding: 0;
+        }
+        
+        .textoSegundo h2 {
+            padding: 0;
+        }
+    }
+    .carrusel img {
+        height: 15%;
+        margin: 1rem 0 1rem 0;
+    }
 }
-
+section#contact .section-heading {
+    font-size: 2.5rem;
+}
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px){
+    .Titulos h1 {
+        padding: 0;
+        font-size: 2rem;
+    }
+    .Titulos h2 {
+        padding: 0;
+        font-size: 2rem;
+    }
+    .Titulos h3 {
+        padding: 0.5rem 0 0 0;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .Titulos p {
+        padding: 0;
+        text-align: center;
+    }
+    .textoCentral h4 {
+        text-align: center;
+    }
+    .inicioColor {
     
+        .textoPrimero h1 {
+            padding: 0;
+        }
+        
+        .textoSegundo h2 {
+            padding: 0;
+        }
+    }
+    .carrusel img {
+        height: 15%;
+        margin: 1rem 0 1rem 0;
+    }
 }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px){
-    
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px){
-    
+section#contact .section-heading {
+    font-size: 2.5rem;
 }

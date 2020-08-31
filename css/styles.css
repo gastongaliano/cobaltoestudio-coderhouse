@@ -46,8 +46,7 @@ p {
     padding-right: 5.5rem; }
 
 .inicioColor {
-  background-color: #6600FF;
-  padding: 1rem 0 0.8rem 0; }
+  background-color: #6600FF; }
   .inicioColor .textoPrimero h1 {
     color: #fcfcfc;
     font-weight: 400;
@@ -387,7 +386,6 @@ section {
     color: #6600FF; }
 
 .carrusel {
-  margin: 0;
   padding: 0.8rem 0 0.8rem 0;
   background-color: #F2F2F2; }
 
@@ -490,4 +488,89 @@ section {
     font-size: 0.8rem;
     line-height: 1.3rem; }
 
+.text-center {
+  padding: 0; }
+
 /* MEDIA QUERIES */
+@media (max-width: 575.98px) {
+  .Titulos h1 {
+    padding: 0;
+    font-size: 2rem; }
+  .Titulos h2 {
+    padding: 0;
+    font-size: 2rem; }
+  .Titulos h3 {
+    padding: 0.5rem 0 0 0;
+    font-size: 2.5rem;
+    text-align: center; }
+  .Titulos p {
+    padding: 0;
+    text-align: center; }
+  .textoCentral h4 {
+    text-align: center; }
+  .inicioColor .textoPrimero h1 {
+    padding: 0; }
+  .inicioColor .textoSegundo h2 {
+    padding: 0; }
+  .carrusel img {
+    height: 15%;
+    margin: 1rem 0 1rem 0; } }
+
+section#contact .section-heading {
+  font-size: 2.5rem; }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .Titulos h1 {
+    padding: 0;
+    font-size: 2.5rem;
+    text-align: center; }
+  .Titulos h2 {
+    padding: 0;
+    font-size: 2.5rem;
+    text-align: center; }
+  .Titulos h3 {
+    padding: 0.5rem 0 0 0;
+    font-size: 2.5rem;
+    text-align: center; }
+  .Titulos p {
+    padding: 0;
+    text-align: center; }
+  .textoCentral h4 {
+    text-align: center; }
+  .inicioColor .textoPrimero h1 {
+    padding: 0; }
+  .inicioColor .textoSegundo h2 {
+    padding: 0; }
+  .carrusel img {
+    height: 15%;
+    margin: 1rem 0 1rem 0; } }
+
+section#contact .section-heading {
+  font-size: 2.5rem; }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .Titulos h1 {
+    padding: 0;
+    font-size: 2rem; }
+  .Titulos h2 {
+    padding: 0;
+    font-size: 2rem; }
+  .Titulos h3 {
+    padding: 0.5rem 0 0 0;
+    font-size: 2.5rem;
+    text-align: center; }
+  .Titulos p {
+    padding: 0;
+    text-align: center; }
+  .textoCentral h4 {
+    text-align: center; }
+  .inicioColor .textoPrimero h1 {
+    padding: 0; }
+  .inicioColor .textoSegundo h2 {
+    padding: 0; }
+  .carrusel img {
+    height: 15%;
+    margin: 1rem 0 1rem 0; } }
+
+section#contact .section-heading {
+  font-size: 2.5rem; }
